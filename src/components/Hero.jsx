@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import phoneimg from "./Phone-Icon-PNG-Transparent.png";
+import phoneimg from "/Phone-Icon-PNG-Transparent.png";
 export default function Hero({ variant = "home" }) {
   const isProduct = variant === "product";
   return (
